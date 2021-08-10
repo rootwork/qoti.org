@@ -13,6 +13,8 @@ QOTI is created with the static site generator [Hugo](http://gohugo.io).
 
 The static site is rendered in the `public` directory.
 
+Note that this is excluded from the repo in `.gitignore`, so this is just to see what it will look like. Use a GitHub Action to generate the site online.
+
 # Fresh installation
 
 ## Go
