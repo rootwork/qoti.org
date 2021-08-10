@@ -1,4 +1,4 @@
-QOTI is Queer on the Inside.
+QOTI is Queer on the Inside prisoner solidarity.
 
 QOTI is created with the static site generator [Hugo](http://gohugo.io).
 
