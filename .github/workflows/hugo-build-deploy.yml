@@ -11,6 +11,9 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.1
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Install and Build 🔧
         uses: jakejarvis/hugo-build-action@v0.87.0  # ...or replace 'master' with a full version tag, such as: v0.64.1
